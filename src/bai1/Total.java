@@ -57,21 +57,24 @@ public class Total {
 
     public static void bill() {
         List<MyBill> myBills = new ArrayList<>();
-        MyBill bill1 = new MyBill(1, "bun cha", 23000, "12/5/2022");
+        MyBill bill1 = new MyBill(1, "bun cha ", 23000, "12/5/2022");
 
-        MyBill bill2 = new MyBill(2, "Bun dau", 30000, "13/5/2022");
+        MyBill bill2 = new MyBill(2, "Bun dau ", 30000, "12/5/2022");
 
-        MyBill bill3 = new MyBill(3, "Com nam", 20000, "10/5/2022");
+        MyBill bill3 = new MyBill(3, "Com nam ", 20000, "10/5/2022");
 
-        MyBill bill4 = new MyBill(4, "Com suon", 20000, "10/5/2022");
+        MyBill bill4 = new MyBill(4, "Com suon",40000, "11/5/2022");
 
-        MyBill bill5 = new MyBill(5, "Com tam", 20000, "10/5/2022");
+        MyBill bill5 = new MyBill(5, "Com tam ", 20000, "10/5/2022");
 
 
 
         myBills.add(bill1);
         myBills.add(bill2);
         myBills.add(bill3);
+        myBills.add(bill4);
+        myBills.add(bill5);
+
 
         System.out.println("Mang ban dau");
         for (int i = 0; i < myBills.size(); i++) {
